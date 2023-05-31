@@ -1,0 +1,13 @@
+body {
+  background: rgb(241, 244, 248);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 244, 248, 1) 0%,
+    rgb(224, 250, 251) 88%
+  );
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 4rem;
+}
