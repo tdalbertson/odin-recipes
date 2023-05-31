@@ -11,3 +11,7 @@ h1 {
   font-family: Helvetica, sans-serif;
   font-size: 3rem;
 }
+
+nav {
+    background-color: rgba(241, 237, 237, 0.704);
+}
