@@ -16,16 +16,22 @@ h1 {
   text-align: center;
 }
 
-nav {
-    background-color: rgba(241, 237, 237, 0.704);
-    width: 734px;
-    margin-left: auto;
-    margin-right: auto;
+.nav-list {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(241, 237, 237, 0.704);
+  width: 734px;
+  margin: 0;
+  padding: 0;
 }
 
 .recipes {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.recipes li {
+  list-style: none;
 }
 
 .recipes a {
