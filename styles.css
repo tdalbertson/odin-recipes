@@ -1,5 +1,6 @@
-* {
+*, *::before, *::after {
   font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,45 +12,35 @@ body {
   );
 }
 
-h1 {
-  font-size: 3rem;
-  text-align: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
 }
 
 .nav-list {
   display: flex;
   justify-content: center;
-  background-color: rgba(241, 237, 237, 0.704);
   width: 734px;
+  height: 55px;
   margin: 0;
   padding: 0;
-}
-
-.recipes {
-    display: flex;
-    justify-content: center;
-}
-
-.recipes li {
   list-style: none;
 }
 
-.recipes a {
+.nav-list a {
   display: inline-block;
   font-size: 1.1em;
   color: black;
   text-align: center;
-  height: 25px;
-  width: 100px;
-  padding: 12px 15px;
-  
-}
-
-.recipes a:link {
+  height: 55px;
+  width: 150px;
+  padding: 15px 15px;
   text-decoration: none;
+  list-style: none;
 }
 
-.recipes a:hover {
+.nav-list a:hover {
   text-decoration: none;
   font-weight: bold;
   background-color: rgba(62, 145, 228, 0.704);
@@ -61,3 +52,21 @@ h1 {
   border: 3px solid black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+.tim {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tim > div, .nav-list-2 > li {
+  border: 2px dotted black;
+  padding: 5px;
+}
+
+.nav-list-2 {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
